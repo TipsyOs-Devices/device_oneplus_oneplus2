@@ -146,8 +146,8 @@ PRODUCT_PACKAGES += \
     fingerprint.msm8994
 
 # GPS
-PRODUCT_PACKAGES += \
-    gps.msm8994 \
+#PRODUCT_PACKAGES += \
+#    gps.msm8994 \
     flp.conf \
     gps.conf \
     izat.conf \
