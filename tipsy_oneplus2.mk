@@ -22,10 +22,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_l_mr1.mk
 # Inherit from oneplus2 device
 $(call inherit-product, device/oneplus/oneplus2/device.mk)
 
-# Inherit some common GZOSP stuff.
-$(call inherit-product, vendor/validus/config/common_full_phone.mk)
+# Inherit some common TipsyOS stuff.
+$(call inherit-product, vendor/tipsy/config/common_full_phone.mk)
 
-PRODUCT_NAME := validus_oneplus2
+PRODUCT_NAME := tipsy_oneplus2
 PRODUCT_DEVICE := oneplus2
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
